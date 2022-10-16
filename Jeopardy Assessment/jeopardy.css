@@ -1,0 +1,47 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+
+/* rows and cells of the entire table   */
+#jeopardy td {
+  width: 150px;
+  height: 150px;
+  border: solid 1px white;
+  background-color:  #060ce9;
+  color: white;
+  text-align: center;
+}
+
+/* spinner itself  */
+.fa fa-spin fa-spinner{
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 300px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.spin-container-hidden {
+  display: none;
+}
+
+#jeopardy thead td {
+  background-color:  purple;
+  height: 75px;
+  font-size: 20px;
+
+}
+
+body {
+  background-color:  lightblue;
+}
+
+
+
+
+
